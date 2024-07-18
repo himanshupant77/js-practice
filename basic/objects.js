@@ -28,5 +28,7 @@ User.greetingsTwo=function(){
     console.log(`Hello User ${this["full name"]}`)
 }
 
-console.log(User.greetings())
-console.log(User.greetingsTwo())
+// console.log(User.greetings())
+// console.log(User.greetingsTwo())
+
+console.log(User)
