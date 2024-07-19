@@ -27,4 +27,25 @@ const obj2={3:"c", 4:"d"}
 
 // const obj3=Object.assign({},obj1,obj2)    //combines 2 objects using assign
 const obj3={...obj1,...obj2}                //combines 2 objects using spread operator
-console.log(obj3)
+// console.log(obj3)
+
+// console.log(User)
+// console.log(Object.keys(User))        //returns only the keys of object in array
+// console.log(Object.values(User))      //returns only the values of object   
+// console.log(Object.entries(User))     //returns al entries in array form 
+
+const course = {
+    coursename:"js in hindi",
+    price:999,
+    studentname:"himanshu"
+}
+//console.log(course.studentname)   // other way to write same is give in next line
+
+const {studentname}=course          //destructuring object
+// console.log(studentname)
+
+// {
+//     "name":"himanshu",         // api's format
+//     "age":22,
+//     "course":"js free"
+// }
