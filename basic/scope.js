@@ -22,7 +22,7 @@ if (true) {
 
 //  INTERESTING ***********
  
-addone()                          //function declaration this type supports hoisting
+addone()                          //function declaration this type supports hoisting 
 function addone(num){
     return num +1
 }
