@@ -23,7 +23,7 @@ User.email="himanshu@yahoo.com"   //changes value in object
 
 User.greetings=function(){
     console.log("Hello User")
-}
+} 
 User.greetingsTwo=function(){
     console.log(`Hello User ${this["full name"]}`)
 }
